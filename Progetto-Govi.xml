@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Stile-Govi.xsl"?>
+<!DOCTYPE TEI SYSTEM "my_tei_lite.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Versione digitale de “Lo Hobbit”</title>
+                <author>J.R.R. Tolkien</author>
+                <respStmt>
+                    <resp>TEI markup a cura di: </resp>
+                    <name type="person">David Govi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>Settembre 2016</date>
+                <availability status="free">
+                    <p>Progetto per l'esame di Codifica di Testi</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="it">
+                    <monogr>
+                        <author><name type="person">J.R.R. Tolkien</name></author>
+                        <title level="m">Lo Hobbit</title>
+                        <imprint>
+                            <publisher><name type="org">Adelphi</name></publisher>
+                            <pubPlace><name type="place">Milano</name></pubPlace>
+                            <date>Novembre 2013</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p> La codifica di questo testo è stata effettuata per l'esame di Codifica di Testi del
+                professor Rosselli Del Turco, presso l'Università di Pisa. La codifica è stata
+                effettuata con lo scopo di marcare nomi di persona, di luogo, e di razze, dialoghi e 
+                canzoni all'interno del testo presentato. </p>
+        </encodingDesc>
+    </teiHeader>
+    
+    <text xml:lang="it">
+        
+        <front>
+            <titlePage>
+                <docAuthor>J.R.R. Tolkien</docAuthor>
+                <titlePart>LO HOBBIT</titlePart>
+                <titlePart>o la Riconquista del Tesoro</titlePart>
+                <docImprint>
+                    <graphic url="imgs/Logo-Adelphi.png" xml:id="logoadelphi"/>
+                    <lb/><publisher>ADELPHI</publisher>
+                </docImprint>
+            </titlePage>
+
+            <div type="index">
+                <list>
+                    <item><ref target="#cap1">Una riunione inaspettata</ref></item>
+                    <item>Abbacchio arrosto</item>
+                    <item>Un breve riposo</item>
+                    <item>In salita e in discesa</item>
+                    <item>Indovinelli nell'oscurità</item>
+                    <item>Dalla padella alla brace</item>
+                    <item>Strani alloggi</item>
+                    <item>Mosche e ragni</item>
+                    <item>La botte piena, la guardia ubriaca</item>
+                    <item>Un'accoglienza calorosa</item>
+                    <item>Sulla soglia</item>
+                    <item>Notizie dall'interno</item>
+                    <item>Era questa la nostra casa?</item>
+                    <item>Acqua e fuoco</item>
+                    <item>Le nuvole si addensano...</item>
+                    <item>Un ladro nella notte</item>
+                    <item>E scoppia il temporale</item>
+                    <item>Il viaggio di ritorno</item>
+                    <item>L'ultima tappa</item>
+                </list>
+            </div>
+
+        </front>
+        
+        <body>
+            
+            <div type="chapter" n="1" xml:id="cap1">
+                <head>UNA RIUNIONE INASPETTATA</head>
+                
+                <p><hi xml:id="capolettera">I</hi>n una caverna sotto terra viveva uno <name type="race">hobbit</name>. 
+                    Non era una caverna brutta, sporca, umida, piena di resti di vermi e di trasudo fetido, 
+                    e neanche una caverna arida, spoglia, sabbiosa, con dentro niente per sedersi o da 
+                    mangiare: era una caverna <name type="race">hobbit</name>, cioè comodissima.
+                </p>
+                <p>Aveva una porta perfettamente rotonda come un oblò, dipinta di verde, con un lucido pomello 
+                    d’ottone proprio nel mezzo. La porta si apriva su un ingresso a forma di tubo, 
+                    come un tunnel: un tunnel molto confortevole, senza fumo, con pareti foderate di legno 
+                    e pavimento di piastrelle ricoperto di tappeti, fornito di sedie lucidate, e di un gran 
+                    numero di attaccapanni per cappelli e cappotti: lo <name type="race">hobbit</name> amava 
+                    molto ricevere visite. Il tunnel si snodava, inoltrandosi profondamente anche se non in 
+                    linea retta nel fianco della collina (o meglio la <name type="place">Collina</name>, 
+                    come era chiamata da tutta la gente per molte miglia all’intorno) e molte porticine 
+                    rotonde si aprivano su di esso, prima da una parte e poi dall’altra. Niente piani 
+                    superiori per lo <name type="race">hobbit</name>: le camere da letto, i bagni, le cantine, 
+                    le dispense (molto numerose), i guardaroba (c’erano camere intere destinate ai vestiti), 
+                    le cucine, le sale da pranzo, erano tutte sullo stesso piano, anzi sullo stesso corridoio. 
+                    Le camere migliori erano tutte sul lato sinistro (entrando), perché erano le sole ad avere 
+                    finestre: finestre rotonde profondamente incassate che davano sul giardino e sui campi 
+                    dietro di esso, lentamente degradanti verso il fiume.
+                </p>
+                <p>Questo <name type="race">hobbit</name> era uno <name type="race">hobbit</name> veramente 
+                    benestante, e il suo nome era <name type="person">Baggins</name>. I <name type="person"> 
+                    Baggins</name> avevano vissuto nella zona attorno alla <name type="place">Collina</name>
+                    da tempi immemorabili, e la gente li considerava molto rispettabili, non solo perché in 
+                    generale erano molto ricchi, ma anche perché non avevano mai avuto nessuna avventura né 
+                    fatto niente di imprevedibile: si poteva presupporre l’opinione di un <name type="person">
+                        Baggins</name> su un problema qualsiasi senza che ci fosse bisogno di chiedergliela. 
+                    Questa è la storia di come un <name type="person">Baggins</name> ebbe un’avventura e si 
+                    trovò a fare e dire cose del tutto imprevedibili. Può anche aver perso il rispetto del 
+                    vicinato, ma in cambio ci guadagnò… bene, vedrete se alla fine ci guadagnò qualche cosa.
+                </p>
+                <p>La madre di questo nostro <name type="race">hobbit</name>, così diverso dagli altri - 
+                    ma che cos’è uno <name type="race">hobbit</name>? Credo che al giorno d’oggi gli 
+                    <name type="race">hobbit</name> abbiano bisogno di essere in qualche modo descritti, 
+                    dal momento che sono diventati rari e timorosi della <name type="race">Gente Grossa</name>,
+                    come ci chiamano. Sono (o erano) <name type="race">gente piccola</name>, alti all’inarca 
+                    la metà di noi, e più minuti dei nani barbuti. Gli <name type="race">hobbit</name> non 
+                    hanno barba. Del resto, poco o niente di magico c’è in loro tranne il modo comunissimo 
+                    con cui spariscono silenziosamente e velocemente quando gente grossa e stupida come me 
+                    e voi capita lì attorno, facendo il rumore di un elefante che essi possono sentire a un 
+                    miglio di distanza. Tendono a metter su un po’ di pancia; vestono di colori vivaci 
+                    (soprattutto di verde e di giallo); non portano scarpe, perché i loro piedi sviluppano 
+                    piante naturalmente dure come il cuoio e un vello fitto, caldo e scuro come quello che 
+                    hanno in testa (che è riccioluta); hanno lunghe, abili dita scure, facce gioviali, e 
+                    ridono con risa profonde e pastose (specialmente dopo il pranzo, che consumano due 
+                    volte al giorno, se ci riescono). Adesso ne sapete abbastanza per andare avanti. 
+                    Come dicevo, la madre di questo <name type="race">hobbit</name> - di <name type="person">
+                        Bilbo Baggins</name>, cioè - era la famosa <name type="person">Belladonna Tuc</name>, 
+                    una delle tre notevoli figlie del <name type="person">Vecchio Tuc</name>, capo degli 
+                    <name type="race">hobbit</name> che vivevano di là dall’<name type="place">Acqua</name>, 
+                    cioè oltre il piccolo fiume che scorreva ai piedi della <name type="place">Collina</name>. 
+                    Si diceva spesso (in altre famiglie) che molto tempo addietro uno degli antenati dei 
+                    <name type="person">Tuc</name> doveva aver preso in moglie una fata. Naturalmente questo 
+                    era assurdo, ma certo v’era ancora qualcosa di non tipicamente 
+                    <name type="race">hobbit</name> in loro, e di tanto in tanto qualche membro del clan 
+                    <name type="person">Tuc</name> partiva e aveva avventure. Spariva discretamente, 
+                    e la famiglia metteva tutto a tacere; ma rimaneva il fatto che i 
+                    <name type="person">Tuc</name> non erano così rispettabili come i 
+                    <name type="person">Baggins</name>, pur essendo indiscutibilmente più ricchi.
+                </p>
+                <p>Non che <name type="person">Belladonna Tuc</name> avesse mai avuto una qualsiasi avventura 
+                    dopo aver sposato <name type="person">Bungo Baggins</name>. 
+                    <name type="person">Bungo</name>, cioè il padre di <name type="person">Bilbo</name>, 
+                    costruì per lei (e in parte col denaro di lei) la più lussuosa hobbit-casa che si 
+                    potesse trovare sotto la <name type="place">Collina</name>, o sopra la  
+                    <name type="place">Collina</name> o di là dall’<name type="place">Acqua</name>, 
+                    e rimasero lì fino alla fine dei loro giorni. Tuttavia, è probabile che 
+                    <name type="person">Bilbo</name>, l’unico figlio di <name type="person">Belladonna</name>, 
+                    sebbene fosse e si comportasse esattamente come una seconda edizione del suo solido e 
+                    tranquillo padre, avesse ereditato dalla parte dei <name type="person">Tuc</name> 
+                    qualcosa di strano nella sua formazione, qualcosa che aspettava solo l’occasione per 
+                    venire alla luce. L’occasione arrivò solo dopo che <name type="person">Bilbo</name> 
+                    fu cresciuto, quando aveva circa cinquant’anni, e viveva nella bella casa di suo padre 
+                    che vi ho appena descritto: quando cioè si era ‘sistemato’, in apparenza per sempre.
+                </p>
+                <p>Per un qualche curioso caso, un mattino di molto tempo fa, nella quiete del mondo, 
+                    quando c’era meno rumore e più verde, e gli <name type="race">hobbit</name> erano 
+                    ancora numerosi e prosperi, e <name type="person">Bilbo Baggins</name> stava sulla 
+                    porta dopo colazione fumando un’enorme pipa di legno che gli arrivava fin quasi alle 
+                    pelose dita dei piedi (accuratamente spazzolate), ecco arrivare 
+                    <name type="person" xml:id="Gan">Gandalf</name>. <name type="person">Gandalf</name>! 
+                    Se di lui aveste sentito solo un quarto di quello che ho sentito io, e anch’io 
+                    ho sentito ben poco di tutto quello che c’è da sentire, vi aspettereste subito 
+                    una qualche storia fuor del comune. Storie e avventure spuntavano fuori da ogni parte, 
+                    dovunque egli andasse, e del tipo più straordinario.
+                </p>
+                <p>Non era più sceso sotto la <name type="place">Collina</name> da un sacco di tempo, 
+                    per l’esattezza da quando era morto il suo amico, il 
+                    <name type="person">Vecchio Tuc</name>, e gli <name type="race">hobbit</name> 
+                    avevano quasi dimenticato il suo aspetto. Era stato via oltre la 
+                    <name type="place">Collina</name> e al di là dell’<name type="place">Acqua</name> 
+                    per certi suoi affari sin da quando erano tutti piccoli <name type="race">hobbit</name>.
+                </p>
+                <p>Tutto quello che l’ignaro <name type="person">Bilbo</name> vide quel mattino era un 
+                    vecchio con un bastone. Aveva un alto cappello blu a punta, un lungo mantello grigio, 
+                    una sciarpa argentea sulla quale la lunga barba bianca ricadeva fin sotto la vita, e 
+                    immensi stivali neri.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Bil">Buon giorno!</said> disse <name type="person">Bilbo</name>; e lo pensava veramente. 
+                    Il sole brillava e l’erba era verdissima.</p>                    
+                <p>Ma <name type="person">Gandalf</name> lo guardò da sotto le lunghe sopracciglia 
+                    irsute ancora più sporgenti della tesa del suo cappello.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Che vuoi dire?</said> disse. <said rend="pre(«) post(»)" who="#Gan">Mi auguri un buon giorno o vuoi dire che è un buon giorno 
+                    che mi piaccia o no; o che ti senti buono, quest’oggi; o che è un giorno in cui si 
+                    deve essere buoni?</said>.</p>                 
+                <p><said rend="pre(«) post(»)" who="#Bil">Tutto quanto</said> disse <name type="person">Bilbo</name>. <said rend="pre(«) post(»)" who="#Bil">È un bellissimo giorno 
+                    per una pipata all’aperto, per di più. Se avete una pipa con voi, sedetevi e prendete 
+                    un po’ del mio tabacco! Non c’è fretta, abbiamo tutto il giorno davanti a noi!</said>. 
+                    E <name type="person">Bilbo</name> si sedette su un sedile accanto alla porta, incrociò 
+                    le gambe e fece un bell’anello grigio di fumo che salì in aria senza rompersi e si librò 
+                    sopra la <name type="place">Collina</name>.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Gan">Graziosissimo!</said> disse <name type="person">Gandalf</name>. <said rend="pre(«) post(»)" who="#Gan">Ma stamattina non ho 
+                    tempo di fare anelli di fumo. Cerco qualcuno con cui condividere un’avventura che 
+                    sto organizzando ed è molto difficile trovarlo</said>.</p>                  
+                <p> <said rend="pre(«) post(»)" who="#Bil">Lo credo bene, da queste parti! Siamo gente tranquilla e alla buona e non sappiamo 
+                    che farcene delle avventure. Brutte fastidiose scomode cose! Fanno far tardi a cena! 
+                    Non riesco a capire cosa ci si trovi di bello!</said> disse il nostro signor 
+                    <name type="person">Baggins</name>, e infilati i pollici sotto le bretelle fece un 
+                    anello di fumo ancora più grande. Poi tirò fuori la posta del mattino e cominciò a 
+                    leggerla, ostentando d’ignorare completamente il vecchio. Aveva deciso che non era 
+                    proprio il suo tipo e voleva che se ne andasse. Ma il vecchio non si mosse. Stava 
+                    fermo, appoggiato al suo bastone, fissando lo <name type="race">hobbit</name> senza 
+                    dire niente, finché <name type="person">Bilbo</name> si sentì a disagio e anche un po’ 
+                    seccato.</p>                  
+                <p><said rend="pre(«) post(»)" who="#Bil">Buon giorno!</said> disse alla fine. <said rend="pre(«) post(»)" who="#Bil">Non vogliamo nessuna avventura qui, grazie tante! 
+                    Potete tentare sopra la <name type="place">Collina</name> o di là dall’
+                    <name type="place">Acqua</name></said>. Con ciò voleva dire che la conversazione era conclusa.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Però, quante cose sai dire col tuo <emph>Buon giorno!</emph></said> disse 
+                    <name type="person">Gandalf</name>. <said rend="pre(«) post(»)" who="#Gan">Adesso vuoi dire che ti vuoi sbarazzare di me e 
+                    che il giorno non sarà buono finché non me ne sarò andato</said>.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Bil">Niente affatto, niente affatto, caro signore! Vediamo un po’, non credo di 
+                    conoscere il vostro nome…</said>. <said rend="pre(«) post(»)" who="#Gan">Sì, sì, mio caro signore!… E io conosco benissimo il tuo, 
+                    signor <name type="person" xml:id="Bil">Bilbo Baggins</name>. E tu conosci benissimo il mio, anche 
+                    se non ricordi che sono io a portarlo. Io sono <name type="person">Gandalf</name> e 
+                    <name type="person">Gandalf</name> vuol dire “me”! E pensare che dovevo vivere per 
+                        essere congedato con un “Buon giorno” dal figlio di <name type="person">Belladonna Tuc</name>, come se fossi un venditore ambulante 
+                    di bottoni!</said>.</p>
+                <p><said rend="pre(«) post(»)" who="#Bil"><name type="person">Gandalf</name>, <name type="person">Gandalf</name>! 
+                    Figurarsi un po’! Quello stregone vagabondo che diede al 
+                    <name type="person">Vecchio Tuc</name> un paio di magici gemelli di diamanti che 
+                    si attaccavano da sé e non si riusciva più a staccarli fino a che non glielo si 
+                    ordinava? Quel tipo che alle feste raccontava splendide storie di 
+                    <name type="race">draghi</name> e <name type="race">orchi</name> e 
+                    <name type="race">giganti</name> e la liberazione di principesse e la fortuna 
+                    inaspettata di figli di vedove? L’uomo che sapeva fabbricare quei fantastici 
+                    fuochi d’artificio? Quelli sì che me li ricordo! Il 
+                    <name type="person">Vecchio Tuc</name> li faceva a Ferragosto. Splendidi! 
+                    Salivano come enormi gigli, bocche di leone e ginestre di fuoco, e rimanevano 
+                    sospesi nel crepuscolo per tutta la sera!</said>.
+                </p>
+                <p>Vi sarete accorti che il signor <name type="person">Baggins</name> non era proprio 
+                    così prosaico come amava credere, e inoltre che era molto amante dei fiori. 
+                    <said rend="pre(«) post(»)" who="#Bil">Povero me!</said> continuò. <said rend="pre(«) post(»)" who="#Bil">Proprio il <name type="person">Gandalf</name> che spinse 
+                    tanti bravi ragazzi e ragazze a partire per l’<name type="place">Ignoto</name> in 
+                    cerca di pazze avventure: arrampicarsi sugli alberi, visitare elfi o andare per nave 
+                    e far vela per altri lidi! Che il cielo mi perdoni, la vita era proprio interess… 
+                    voglio dire, un tempo avevate l’abitudine di metter tutto sottosopra da queste parti! 
+                    Vi chiedo scusa, ma non avevo idea che foste ancora in affari!</said>.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Gan">Che altro dovrei fare?</said> disse lo <name type="race">stregone</name>. <said rend="pre(«) post(»)" who="#Gan">Ma sono contento 
+                    lo stesso di vedere che ricordi qualcosa di me. Sei gentile a ricordare almeno 
+                    i miei fuochi d’artificio, e questo mi fa sperare bene. Sì, certo! Per amore del 
+                    tuo vecchio nonno <name type="person">Tuc</name> e per amore della povera 
+                    <name type="person">Belladonna</name>, ti darò quello che mi hai chiesto!</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Vi chiedo scusa, ma io non ho chiesto niente!</said>.</p>
+                <p><said rend="pre(«) post(»)" who="#Gan">E invece sì, e per ben due volte. Sei scusato. Te lo darò. Anzi, farò di più: 
+                    ti darò una bella parte in quest’avventura, molto divertente per me, ottima per te, 
+                    e anche proficua, probabilmente, se riesci a venirne fuori</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Scusate! Io non voglio nessuna avventura, grazie! Non oggi! Buon giorno! Ma 
+                    venite a prendere il tè, per piacere, quando vi pare! Perché non domani? Venite 
+                    domani! Arrivederci!</said>.</p>
+                <p>Detto questo lo <name type="race">hobbit</name> si girò, svignandosela per la verde 
+                    porta rotonda, e la chiuse, appena osò farlo senza apparire maleducato. Dopo tutto gli 
+                    <name type="race">stregoni</name> sono sempre <name type="race">stregoni</name>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Perché mai l’ho invitato a prendere il te?</said> disse tra sé e sé andando in dispensa. 
+                    Aveva appena fatto colazione, ma pensò che una torta o due e un bicchierino gli 
+                    avrebbero fatto bene dopo lo spavento.
+                </p>
+                <p>Frattanto <name type="person">Gandalf</name> stava ancora lì fuori della porta, 
+                    ridendo a lungo, ma silenziosamente.
+                </p>
+                <p>Dopo un po’ si mosse e con la punta del bastone fece uno strano segno sul bel 
+                    portoncino verde dello <name type="race">hobbit</name>. Poi si allontanò a grandi passi, 
+                    più o meno mentre <name type="person">Bilbo</name> stava finendo la sua seconda torta 
+                    e cominciava a pensare che era stato molto abile nell’evitare avventure. Il giorno 
+                    dopo aveva quasi dimenticato <name type="person">Gandalf</name>. Non ricordava molto 
+                    bene le cose, a meno che non le mettesse giù sulla lavagnetta dove segnava gli 
+                    appuntamenti, più o meno così: <said rend="pre(«) post(»)" who="#Bil"><name type="person">Gandalf</name>. Tè. Mercoledì</said>. 
+                    Ieri era stato troppo agitato per poter fare qualcosa del genere.
+                </p>
+                <p>Proprio un momento prima dell’ora del tè, il campanello della porta suonò furiosamente, 
+                    e allora si ricordò! Corse a metter su la cuccuma per l’acqua, tirò fuori un’altra 
+                    tazza e un piattino, una o due torte in più, e corse alla porta.
+                </p>
+                <p>Stava per dire: <said rend="pre(«) post(»)" who="#Bil">Mi dispiace tanto di avervi fatto aspettare!</said>, quando vide che non 
+                    era affatto <name type="person">Gandalf</name>. Era un <name type="race">nano</name> 
+                    con una barba blu infilata in una cintura d’oro, e occhi vivacissimi sotto il cappuccio 
+                    verde scuro. Appena la porta fu aperta, si infilò dentro, proprio come se fosse stato 
+                    atteso.
+                </p>
+                <p>Appese il mantello a cappuccio sull’attaccapanni più vicino e, con un leggero inchino, 
+                    disse:</p>                    
+                <p><said rend="pre(«) post(»)"><name type="person">Dwalin</name> al vostro servizio!</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil"><name type="person">Bilbo Baggins</name> al vostro!</said> disse lo 
+                    <name type="race">hobbit</name>, troppo sorpreso per poter far domande. Quando 
+                    il silenzio che seguì divenne imbarazzante, aggiunse: <said rend="pre(«) post(»)" who="#Bil">Stavo proprio per prendere 
+                    il tè; volete avere la cortesia di venire a prenderne una tazza con me?</said>. Un po’ 
+                    troppo formale, forse, ma l’intenzione era gentile. E d’altra parte voi che cosa 
+                    fareste, se vi arrivasse un nano inaspettato e appendesse le sue cose nel vostro 
+                    ingresso senza una parola di spiegazione?</p>                   
+                <p>Non erano stati a lungo a tavola - in effetti avevano a malapena attaccato la 
+                    terza torta - quando il campanello suonò ancora, e più forte di prima.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Bil">Scusatemi!</said> disse lo <name type="race">hobbit</name>, e andò ad aprire la porta.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Finalmente siete arrivato!</said>. Questo era quanto avrebbe detto a 
+                    <name type="person">Gandalf</name> questa volta. Ma non era 
+                    <name type="person">Gandalf</name>. Al suo posto, sulla soglia, c’era un nano molto 
+                    vecchio, con una barba bianca e un cappuccio scarlatto; e anche lui saltellò dentro 
+                    appena la porta fu aperta, proprio come se fosse stato invitato.</p>          
+                <p><said rend="pre(«) post(»)">Vedo che son già cominciati ad arrivare</said> disse scorgendo il cappuccio verde di 
+                    <name type="person">Dwalin</name> appeso all’attaccapanni. Vi appese vicino quello suo, 
+                    rosso, e con la mano sul petto disse: <said rend="pre(«) post(»)"><name type="person">Balin</name> al vostro 
+                    servizio!</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Grazie!</said> disse <name type="person">Bilbo</name> boccheggiante. Non era la 
+                    risposta giusta, ma la frase <said rend="pre(«) post(»)">son cominciati ad arrivare</said> lo aveva proprio 
+                    sconvolto. I visitatori gli piacevano, ma gli piaceva conoscerli prima che 
+                    arrivassero e preferiva invitarli di persona. Aveva l’orribile sensazione che il 
+                    numero delle torte sarebbe probabilmente risultato insufficiente, e che lui poi, 
+                    come anfitrione (conosceva il suo dovere e lo compiva, per quanto fosse doloroso), 
+                    avrebbe dovuto farne a meno.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Venite dentro a prendere un po’ di tè</said> riuscì a dire dopo aver tratto un profondo 
+                    respiro.</p>             
+                <p><said rend="pre(«) post(»)">Preferirei un po’ di birra, se per voi è lo stesso, mio caro signore</said> 
+                    disse <name type="person">Balin</name> dalla barba bianca <said rend="pre(«) post(»)">ma un po’ di torta 
+                    mi va benissimo: pan di spagna, se ne avete</said>.</p>                 
+                <p><said rend="pre(«) post(»)" who="#Bil">Altro che!</said> si trovò a rispondere <name type="person">Bilbo</name>, con sua 
+                    gran sorpresa, e si trovò anche a correre in cantina per riempire un boccale di 
+                    birra da mezzo litro e poi in dispensa a cercare due pan di spagna belli rotondi, 
+                    che aveva cotto nel pomeriggio per lo spuntino dopo cena.
+                </p>
+                <p>Quando tornò, <name type="person">Balin</name> e <name type="person">Dwalin</name> 
+                    stavano a tavola parlando come vecchi amici (per la verità erano fratelli). 
+                    <name type="person">Bilbo</name> posò seccamente la birra e le torte davanti a loro, 
+                    ed ecco che il campanello suonò ancora, e ancora con forza.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Bil">Stavolta è <name type="person">Gandalf</name> senz’altro</said> pensò mentre sbuffava 
+                    nel corridoio. Invece no: erano altri due <name type="race">nani</name>, entrambi 
+                    con cappucci blu, cinture d’argento e barba gialla; e ciascuno di essi portava un 
+                    sacco di attrezzi e una vanga. Saltellarono dentro, appena la porta fu aperta, e 
+                    <name type="person">Bilbo</name> ne fu assai poco sorpreso. <said rend="pre(«) post(»)" who="#Bil">Cosa posso fare per voi, 
+                    <name type="race">nani</name> miei?</said> disse. <said rend="pre(«) post(»)"><name type="person">Kili</name> al 
+                    vostro servizio!</said> disse uno. <said rend="pre(«) post(»)">E <name type="person">Fili</name>!</said> aggiunse l’altro, 
+                    ed entrambi si sfilarono il cappuccio blu e fecero un cortese cenno di saluto.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Bil">Al vostro e della vostra famiglia!</said> replicò <name type="person">Bilbo</name>, 
+                    che questa volta si ricordò delle buone maniere.</p>                  
+                <p><said rend="pre(«) post(»)">Vedo che <name type="person">Dwalin</name> e <name type="person">Balin</name> 
+                    sono già qui</said> disse <name type="person">Kili</name>. <said rend="pre(«) post(»)">Mescoliamoci alla folla!</said>.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Bil">La folla!</said> pensò il signor <name type="person">Baggins</name>. <said rend="pre(«) post(»)" who="#Bil">Questo modo 
+                    di parlare non mi piace affatto! Devo proprio sedermi un attimo a riprender fiato 
+                    e a bere qualcosa.</said> Aveva appena fatto in tempo a bere un sorso (in un angolo, 
+                    mentre i quattro <name type="race">nani</name> sedevano attorno alla tavola e 
+                    parlavano di miniere, di oro, di guai con gli <name type="race">orchi</name>, 
+                    delle ruberie dei <name type="race">draghi</name>, e di un sacco di altre cose che 
+                    <name type="person">Bilbo</name> non capiva e non voleva capire, perché avevano 
+                    l’aria d’essere troppo avventurose) quando ding-dong e ling-lang il campanello suonò 
+                    di nuovo, come se un ragazzaccio <name type="race">hobbit</name> stesse cercando 
+                    di rompere il pulsante.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Bil">Qualcuno è alla porta!</said> disse battendo le palpebre.</p>                   
+                <p><said rend="pre(«) post(»)">Circa quattro, direi, dal suono</said> disse <name type="person">Fili</name>. <said rend="pre(«) post(»)">A 
+                    parte questo, li abbiamo visti venire dietro di noi, in lontananza</said>.</p>                    
+                <p>Il povero piccolo <name type="race">hobbit</name> si sedette nell’ingresso e si 
+                    prese la testa tra le mani, chiedendosi che cosa fosse accaduto, cosa stesse per 
+                    accadere, e se sarebbero rimasti a cena tutti quanti. Poi il campanello suonò di 
+                    nuovo più forte che mai, e dovette correre alla porta. Dopotutto non erano quattro, 
+                    erano CINQUE. Un altro <name type="race">nano</name> era arrivato mentre lui, 
+                    nell’ingresso, stava chiedendosi che cosa succedeva. Aveva a malapena girato la 
+                    maniglia che erano già tutti dentro, facendo cortesi cenni di saluto e dicendo: 
+                    « Al vostro servizio! » uno <emph>dopo</emph> l’altro.
+                </p>
+                <p><name type="person">Dori</name>, <name type="person">Nori</name>, 
+                    <name type="person">Ori</name>, <name type="person">Oin</name> e 
+                    <name type="person">Gloin</name> erano i loro nomi; e ben presto due cappucci 
+                    purpurei, un cappuccio grigio, un cappuccio marrone e un cappuccio bianco pendevano 
+                    dall’attaccapanni e i <name type="race">nani</name> si avviavano marciando a 
+                    raggiungere gli altri, colle larghe mani ficcate nelle cinture d’oro e d’argento. 
+                    Era già diventata quasi una folla. Qualcuno chiese della birra chiara, qualcuno 
+                    della birra scura, uno il caffè e tutti delle torte; così tennero lo 
+                    <name type="race">hobbit</name> molto occupato per un po’ di tempo.</p>                  
+                <p>Una grossa caffettiera era stata appena posata a terra, i pan di spagna erano spariti, 
+                    e i <name type="race">nani</name> cominciavano un giro di brioche imburrate, quando 
+                    si sentì bussare forte. Non uno squillo, ma un duro bum-bum sulla porta verde dello 
+                    <name type="race">hobbit</name>. Qualcuno batteva violentemente con un bastone!</p>                    
+                <p><name type="person">Bilbo</name> corse per il corridoio, arrabbiatissimo, 
+                    completamente sconcertato e sconvolto: questo era il peggiore mercoledì di tutta 
+                    la sua vita! Aprì la porta con uno strattone e caddero tutti dentro, uno sopra l’altro. 
+                    Altri <name type="race">nani</name>, altri quattro! e dietro c’era 
+                    <name type="person">Gandalf</name>, che stava appoggiato al bastone e rideva. 
+                    Aveva fatto una bella ammaccatura sulla porta, e, tra parentesi, aveva cancellato 
+                    il segno segreto che vi aveva messo il mattino precedente.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Gan">Attento! Attento!</said> disse. <said rend="pre(«) post(»)" who="#Gan">Non è da te far aspettare gli amici sullo zerbino, 
+                    <name type="person">Bilbo</name>, e poi aprire la porta come un fulmine! Permettimi 
+                    di presentarti <name type="person">Bifur</name>, <name type="person">Bofur</name>, 
+                    <name type="person">Bombur</name> e specialmente <name type="person" xml:id="Tho">Thorin</name>!</said>.</p>                    
+                <p><said rend="pre(«) post(»)">Al vostro servizio</said> dissero <name type="person">Bifur</name>, 
+                    <name type="person">Bofur</name> e <name type="person">Bombur</name> stando in fila. 
+                    Poi appesero due cappucci gialli e uno verde pallido, e anche uno azzurro cielo con 
+                    una lunga nappa d’argento.
+                </p>
+                <p>Quest’ultimo apparteneva a <name type="person">Thorin</name>, un 
+                    <name type="race">nano</name> estremamente importante, non altri, anzi, che 
+                    il grande <name type="person">Thorin Scudodiquercia</name> in persona, che non 
+                    era stato contento per niente di cadere disteso sullo zerbino di 
+                    <name type="person">Bilbo</name> con <name type="person">Bifur</name>, 
+                    <name type="person">Bofur</name> e <name type="person">Bombur</name> sopra di lui. 
+                    Tra l’altro <name type="person">Bombur</name> era enormemente grasso e pesante! 
+                    <name type="person">Thorin</name> in realtà era molto altero, e la parola “servizio” 
+                    non gli uscì affatto di bocca, ma il povero signor <name type="person">Baggins</name> 
+                    si scusò tante di quelle volte che alla fine egli grugnì un <said rend="pre(«) post(»)" who="#Tho">per favore, non importa</said>, 
+                    e spianò il suo cipiglio.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Adesso ci siamo tutti!</said> disse <name type="person">Gandalf</name>, osservando 
+                    la fila di tredici cappucci (i migliori cappucci staccabili, quelli della festa) e 
+                    il proprio cappello che pendevano dall’attaccapanni.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Gan">Una bella compagnia davvero. Spero che ci sia ancora qualcosa da mangiare per i 
+                    ritardatari! Che cosa ci sarà? Del tè? No, grazie tante! Per me un goccio di vino rosso, 
+                    direi</said>.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Tho">E anche per me</said> disse <name type="person">Thorin</name>. <said rend="pre(«) post(»)">E marmellata di 
+                    lamponi e torta di mele!</said> disse <name type="person">Bifur</name>.</p>                   
+                <p><said rend="pre(«) post(»)">E pizza e formaggio!</said> disse <name type="person">Bofur</name>. <said rend="pre(«) post(»)">E polpettone e 
+                    insalata!</said> disse <name type="person">Bombur</name>. <said rend="pre(«) post(»)">E ancora dolci! e birra! e 
+                    caffè! se non vi dispiace…</said> chiesero gli altri <name type="race">nani</name> 
+                    attraverso la porta. <said rend="pre(«) post(»)" who="#Gan">Metti su qualche uovo, da bravo!</said> gli gridò dietro 
+                    <name type="person">Gandalf</name>, mentre lo <name type="race">hobbit</name> 
+                    si avviava tutto rigido verso le dispense. <said rend="pre(«) post(»)" who="#Gan">E già che ci sei, tira fuori il pollo 
+                    freddo e i sottaceti</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Sembra che sappia che cos’ho in dispensa meglio di me!</said> pensò il signor 
+                    <name type="person">Baggins</name>, che si sentiva completamente a terra e cominciava 
+                    a chiedersi se la più sciagurata delle avventure non gli fosse piombata addirittura 
+                    in casa. Quando finalmente riuscì ad ammucchiare su grossi vassoi tutte le bottiglie, 
+                    i piatti, i bicchieri, i cucchiai, le scodelle e chi più ne ha più ne metta, era 
+                    diventato tutto accaldato, rosso in faccia e molto seccato.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Vadano in malora tutti quanti, questi <name type="race">nani</name>!</said> disse ad 
+                    alta voce. <said rend="pre(«) post(»)" who="#Bil">Perché non vengono a darmi una mano?</said>. Detto e fatto! Ecco lì 
+                    <name type="person">Balin</name> e <name type="person">Dwalin</name> sulla porta 
+                    della cucina, e <name type="person">Fili</name> e <name type="person">Kili</name> dietro 
+                    di loro, e prima che <name type="person">Bilbo</name> potesse dire <emph>ba</emph> avevano fatto 
+                    sparire nel salotto i vassoi e un paio di tavolinetti, e disposto bellamente ogni cosa. 
+                    <name type="person">Gandalf</name> sedeva a capotavola coi tredici 
+                    <name type="race">nani</name> tutt’intorno a lui: e <name type="peron">Bilbo</name> 
+                    sedeva su una seggiolina vicino al caminetto, mordicchiando un biscotto 
+                    (l’appetito gli era quasi completamente passato), e cercando di fingere che 
+                    tutto fosse perfettamente a posto e niente affatto un’avventura. 
+                    I <name type="race">nani</name> mangiavano e mangiavano, parlavano e parlavano, e 
+                    il tempo passava. Alla fine spinsero indietro le sedie e 
+                    <name type="person">Bilbo</name> si mosse per raccogliere piatti e bicchieri.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Bil">Immagino che vi tratteniate a cena?</said> disse col tono di voce più educato e inespressivo.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Ma naturale!</said> disse <name type="person">Thorin</name>. <said rend="pre(«) post(»)" who="#Tho">E anche dopo. Non 
+                    risolveremo la faccenda fino a tardi e dobbiamo prima fare un po’ di musica. 
+                    Adesso… sparecchiare!</said>.</p>                    
+                <p>Al che i dodici <name type="race">nani</name> - non <name type="person">Thorin</name>, 
+                    che era troppo importante e rimase a parlare con <name type="person">Gandalf</name> 
+                    - balzarono in piedi e ammucchiarono ogni cosa in alte pile. Senza aspettare i vassoi, 
+                    se ne uscirono tenendo in equilibrio con una mano sola colonne di piatti, ognuna 
+                    con una bottiglia in cima, mentre lo <name type="race">hobbit</name> correva dietro 
+                    di loro quasi squittendo per la paura: <said rend="pre(«) post(»)" who="#Bil">Per piacere, fate attenzione!</said>, e 
+                    <said rend="pre(«) post(»)" who="#Bil">Per piacere, non vi disturbate! Posso fare da solo!</said>. Ma per tutta risposta i 
+                    <name type="race">nani</name> cominciarono a cantare:
+                </p>
+                
+                <q>Scheggia le coppe, sbriciola i piatti! Lame e forchette torci non poco! Ciò 
+                    <name type="person">Bilbo Baggins</name> odia da matti - Spacca bottiglie, dà i 
+                    tappi al fuoco!</q>                    
+                <q>Strappa tovaglie, sul grasso salta! Riversa il latte nel ripostiglio! A piè del 
+                    letto tutto ribalta!                    
+                    L’uscio di vino spruzza vermiglio!</q>                   
+                <q>Versa stoviglie, ché l’acqua scotta, Col gran pestello tritale bene; e se qualcuna 
+                    resta non rotta buttarla in terra tosto conviene!</q>                   
+                <q type="last">Ciò <name type="person">Bilbo Baggins</name> odia da matti! Attento dunque tu con 
+                    quei piatti!</q>
+                
+                <p>Naturalmente non fecero nessuna di queste cose orribili, e pulirono e riposero ogni 
+                    cosa sana e salva, mentre lo <name type="race">hobbit</name> girava e rigirava in mezzo 
+                    alla cucina cercando di vedere che cosa stessero facendo. Poi tornarono indietro, e 
+                    trovarono <name type="person">Thorin</name> che fumava la pipa coi piedi sul parafuoco. 
+                    Faceva degli anelli di fumo assolutamente enormi, che andavano dovunque egli diceva 
+                    loro di andare - su per la cappa del camino, o dietro l’orologio sopra la mensola, 
+                    o sotto la tavola, o attorno al soffitto: ma dovunque l’anello di fumo andasse, 
+                    non era mai abbastanza veloce da sfuggire a <name type="person">Gandalf</name>. Pop! 
+                    Dalla sua corta pipa di terracotta egli spediva un anello di fumo più piccolo 
+                    esattamente attraverso ciascuno di quelli di <name type="person">Thorin</name>. Poi 
+                    l’anello, di fumo di <name type="person">Gandalf</name> diventava verde e tornava 
+                    indietro a librarsi sopra la testa dello <name type="race">stregone</name>.   
+                    Ce n’era già una nuvola attorno a lui, che gli dava un aspetto strano e stregonesco, 
+                    nella penombra. <name type="person">Bilbo</name> rimase fermo a guardare - gli piacevano 
+                    molto gli anelli di fumo - e poi arrossì al pensiero di quanto si fosse sentito fiero 
+                    degli anelli di fumo che aveva fatto salire nel vento sopra la 
+                    <name type="place">Collina</name>, il mattino precedente.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">E adesso un po’ di musica!</said> disse <name type="person">Thorin</name>. <said rend="pre(«) post(»)" who="#Tho">Tirate fuori 
+                    gli strumenti!</said>.</p>
+                 <p><name type="person">Kili</name> e <name type="person">Fili</name> si precipitarono a 
+                    prendere le borse e riportarono con loro dei piccoli violini; dall’interno dei loro 
+                    mantelli, <name type="person">Dori</name>, <name type="person">Nori</name> e 
+                    <name type="person">Ori</name> tirarono fuori dei flauti; 
+                    <name type="person">Bombur</name> esibì un tamburo che era nell’ingresso; anche 
+                    <name type="person">Bifur</name> e <name type="person">Bofur</name>name> uscirono e tornarono con 
+                    dei clarinetti che avevano lasciato nel portaombrelli. 
+                    <name type="person">Dwalin</name> e <name type="person">Balin</name> dissero: 
+                     <said rend="pre(«) post(»)">Scusate! ho lasciato il mio strumento nel portico!</said>. <said rend="pre(«) post(»)" who="#Tho">Già che ci siete, 
+                    portate dentro anche il mio!</said> disse <name type="person">Thorin</name>.
+                    Ritornarono con delle viole grosse quanto loro, e con l’arpa di 
+                    <name type="person">Thorin</name> avvolta in un panno verde. Era una bella arpa d’oro, 
+                    e quando <name type="person">Thorin</name> la sfiorò, la musica che si sprigionò 
+                    all’istante fu così improvvisa e dolce che <name type="person">Bilbo</name> dimenticò 
+                    qualsiasi altra cosa, e fu trascinato via in terre oscure sotto lune sconosciute, al 
+                    di là dell’<name type="place">Acqua</name> e assai lontano dalla sua casetta sotto la 
+                    <name type="place">Collina</name>.</p>                   
+                 <p>Il buio entrava nella stanza attraverso la finestrella che dava sulla 
+                    <name type="place">Collina</name>; la luce della fiamma vacillava - era aprile - 
+                    ed essi suonavano ancora mentre l’ombra della barba di <name type="person">Gandalf</name> 
+                    si muoveva ritmicamente contro il muro.</p>                   
+                 <p>Il buio aveva invaso tutta la stanza; il fuoco moriva lentamente, le ombre si 
+                    smarrivano, ed essi suonavano ancora. E d’un tratto, mentre suonavano, cominciarono 
+                    a cantare uno dopo l’altro: un canto roco di <name type="race">nani</name> che 
+                    sembrava salire dai recessi delle loro antiche case; e questo è come un frammento 
+                    della loro canzone, se canzone può esserci senza alcuna musica.
+                </p>
+                
+                <q>Lontan sui monti fumidi e gelati in antri fondi, oscuri, desolati, prima che sorga il 
+                    sol dobbiamo andare i pallidi a cercar ori incantati.</q>                   
+                <q>Faceano i <name type="race">nani</name> un dì magiche gesta, battendo mazze qual 
+                    campane a festa dove dorme laggiù tetro un mistero negli antri sotto la rocciosa cresta.</q>                    
+                <q>Per prenci antichi, degli <name type="race">elfi</name> signori, gli accumulati 
+                    e balenanti ori lavoravano ad arte, il di ghermendo per dare a gemme d’elsa altri 
+                    splendori.</q>                   
+                <q>Trapuntavan di stelle le collane i serti con baglior di 
+                    <name type="race">drago</name> immane, poscia in ritorto fil di sole e luna intessevan 
+                    le luci in filigrane.</q>                   
+                <q>Lontan sui monti fumidi e gelati in antri fondi, oscuri, desolati, prima che sorga 
+                    il sol dobbiamo andare per esigere i nostri ori obliati.</q>                    
+                <q>Calici e arpe cesellavan d’oro e dove gli <name type="race">uomini</name> non scavan, 
+                    loro vissero a lungo, ma dei lieti canti né <name type="race">uom</name> né 
+                    <name type="race">elfo</name> sentì mai il coro.</q>                    
+                <q>I pini sulle alture eran ruggenti, alti gemevan nella notte i venti. Rosso era 
+                    il fuoco e distruggeva tutto, gli alberi come torce eran splendenti.</q>                   
+                <q>Le campane s’udian per la vallata e la faccia d’ognuno era sbiancata; del fuoco 
+                    più crudel, l’ira del drago distrusse torri e case all’impazzata.</q>                    
+                <q>Fumava il monte nel chiaror lunare; i nani udir la morte ecco avanzare. La casa 
+                    abbandonarono, morendo di sotto il <name type="race">drago</name> nel chiaror lunare.</q>                   
+                <q type="last">Lontan sui monti fumidi e gelati in antri fondi, oscuri, desolati, prima che sorga 
+                    il sol dobbiamo andare a riaver l’arpe e l’oro a noi strappati.</q>
+                
+                <p>Mentre cantavano lo <name type="race">hobbit</name> sentì vibrare in sé l’amore per 
+                    le belle cose fatte con le proprie mani, con abilità e magia, un amore fiero e geloso, 
+                    il desiderio dei cuori dei <name type="race">nani</name>. Allora qualcosa che gli 
+                    veniva dai <name type="person">Tuc</name> si risvegliò in lui, e desiderò di andare 
+                    a vedere le grandi montagne, udire i pini e le cascate, esplorare le grotte e impugnare 
+                    la spada al posto del bastone da passeggio. Guardò fuori della finestra. Le stelle 
+                    erano apparse in un cielo buio al di sopra degli alberi. Pensò ai gioielli dei nani 
+                    che scintillavano in caverne buie. Improvvisamente nel bosco di là dall’
+                    <name type="place">Acqua</name> palpitò una fiamma - probabilmente qualcuno che 
+                    accendeva un fuoco di legna - ed egli pensò a draghi predatori che venivano a 
+                    installarsi sulla sua quieta Collina e ad appiccare il fuoco dappertutto. 
+                    Rabbrividì: e in men che non si dica era tornato ad essere il posato signor 
+                    <name type="person">Baggins</name> di <name type="place">Casa Baggins</name>, 
+                    <name type="place">Vicolo Cieco</name>, <name type="place">Sottocolle</name>.</p>                    
+                <p>Si alzò tremando. Aveva meno di una mezza idea di andare a prendere una lampada, e più 
+                    di una mezza idea di fare solo finta, e di andare invece a nascondersi in cantina dietro i 
+                    barili di birra, per non tornare più finché tutti i <name type="race">nani</name> non 
+                    se ne fossero andati. Improvvisamente si rese conto che la musica e il canto si erano 
+                    interrotti, e che tutti lo stavano guardando con occhi scintillanti nel buio.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Tho">Dove stai andando?</said> disse <name type="person">Thorin</name>, con un tono che sembrava 
+                    mostrare che aveva intuito entrambe le mezze idee dello <name type="race">hobbit</name>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Che ne pensate di un po’ di luce?</said> disse <name type="person">Bilbo</name> in tono 
+                    di scusa.</p>                   
+                <p><said rend="pre(«) post(»)">L’oscurità ci piace!</said> dissero tutti i <name type="race">nani</name>. <said rend="pre(«) post(»)">Oscurità 
+                    per affari oscuri! Mancano molte ore all’alba!</said>.                    
+                    <said rend="pre(«) post(»)" who="#Bil">Ma certo!</said> disse <name type="person">Bilbo</name>, e si sedette in fretta. 
+                    Mancò lo sgabello e si sedette sul parafuoco, urtando con gran fracasso la paletta e 
+                    l’attizzatoio.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Ssst!</said> disse <name type="person">Gandalf</name>. <said rend="pre(«) post(»)" who="#Gan">Che 
+                    <name type="person">Thorin</name> parli</said>. E <name type="person">Thorin</name> 
+                    cominciò così.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Gan"><name type="person">Gandalf</name>, <name type="race">nani</name> e signor 
+                    <name type="person">Baggins</name>! Ci siamo riuniti nella casa del nostro amico e 
+                    compagno cospiratore, questo eccellentissimo e audacissimo 
+                    <name type="race">hobbit</name> - voglia il cielo che i peli dei suoi piedi non 
+                    cadano mai! lode grandissima al suo vino e alla sua birra!…</said>. Qui fece una pausa per 
+                    riprender fiato e per un’educata replica dello <name type="race">hobbit</name>, ma i 
+                    complimenti eran del tutto sprecati col povero <name type="person">Bilbo Baggins</name> 
+                    che boccheggiava tentando di protestare contro l’esser chiamato <emph>audace</emph> e peggio che 
+                    mai <emph>compagno cospiratore</emph>, pur non riuscendo a produrre nessun suono, tanto era abbattuto.
+                </p>
+                <p>Così, <name type="person">Thorin</name> continuò: <said rend="pre(«) post(»)" who="#Tho">Ci siamo riuniti per discutere i 
+                    nostri piani, le soluzioni, i mezzi, le strategie e le risorse. Tra poco, prima che 
+                    spunti l’alba, intraprenderemo il nostro lungo viaggio, un viaggio da cui qualcuno di 
+                    noi, o forse ognuno di noi (eccetto il nostro amico e consigliere, l’ingegnoso stregone 
+                    <name type="person">Gandalf</name>) può anche non ritornare. È un momento solenne. 
+                    Il nostro scopo, non credo di sbagliare, è ben noto a tutti noi. Per lo stimatissimo 
+                    signor <name type="person">Baggins</name>, e forse per uno o due dei 
+                    <name type="race">nani</name> più giovani (credo di non sbagliarmi se indico 
+                    <name type="person">Kili</name> e <name type="person">Fili</name>, per esempio) 
+                    può essere opportuna una sommaria e breve descrizione dello stato attuale delle cose</said>.</p>                    
+                <p>Questo ero lo stile di <name type="person">Thorin</name>. Era un nano importante. Se 
+                    gli fosse stato permesso, con molta probabilità sarebbe andato avanti in questo modo 
+                    fino a rimanere senza fiato, senza raccontare a nessuno dei presenti niente che non 
+                    fosse già noto a tutti. Ma fu bruscamente interrotto.                    
+                    Il povero <name type="person">Bilbo</name> non ce la fece più a sopportarlo. Al 
+                    <emph>può anche non ritornare</emph> cominciò a sentire un grido salire dentro di lui, e ben 
+                    presto esso esplose come il fischio lacerante di una locomotiva che esce da un tunnel. 
+                    Tutti i <name type="race">nani</name> saltarono su picchiando sopra la tavola.                    
+                    <name type="person">Gandalf</name> fece sprizzare una luce blu dall’estremità del 
+                    suo magico bastone e nel suo vivido bagliore si poté vedere il povero piccolo 
+                    <name type="race">hobbit</name> inginocchiato sul tappeto davanti al focolare, 
+                    tremante come una gelatina che si sta squagliando. Poi cadde bocconi sul pavimento 
+                    e continuò a gridare: <said rend="pre(«) post(»)" who="#Bil">Fulminato, fulminato!</said>; e questo fu tutto quanto riuscirono 
+                    a cavargli fuori per un bel po’. Così lo presero e lo levarono di lì, posandolo sul 
+                    divano del salotto con qualcosa da bere vicino, e tornarono ai loro affari oscuri.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Gan">Che tipetto impressionabile!</said> disse <name type="person">Gandalf</name>, quando si 
+                    furono nuovamente seduti. <said rend="pre(«) post(»)" who="#Gan">Gli vengono questi strani buffi attacchi, ma è uno dei 
+                    migliori… uno dei migliori, fiero come un <name type="race">drago</name> nelle peste</said>.</p>                    
+                <p>Se avete mai visto un <name type="race">drago</name> nelle peste, vi renderete conto 
+                    che questa era solo un’esagerazione poetica, se riferita a un qualsiasi 
+                    <name type="race">hobbit</name>, perfino al proprozio del 
+                    <name type="person">Vecchio Tuc</name>, <name type="person">Ruggitoro</name>, 
+                    che era tanto alto (per uno <name type="race">hobbit</name>) da poter cavalcare 
+                    un cavallo. Prese parte alla carica contro le schiere degli 
+                    <name type="race">orchi</name> di <name type="place">Monte Gramma</name>, nella 
+                    Battaglia di <name type="place">Campiverdi</name>, e colpì e staccò di netto la testa 
+                    del loro re <name type="person">Golfimpal</name> con una mazza di legno. La testa volò 
+                    in aria per un centinaio di metri e cadde poi giù in una tana di coniglio: ed in 
+                    questo modo fu vinta la battaglia e, contemporaneamente, inventato il gioco del Golf.</p>                   
+                <p>Nel frattempo, comunque, il più mite discendente di <name type="person">Ruggitoro</name> 
+                    si stava riprendendo in salotto.                   
+                    Dopo un po’ di tempo e un bicchierino, si avvicinò furtivamente alla porta del salotto, 
+                    e udì <name type="person">Gloin</name> che diceva: <said rend="pre(«) post(»)">Ehm! (o qualche altro sbuffo 
+                    del genere) Credete che ce la farà? Non discuto il fatto che secondo 
+                    <name type="person">Gandalf</name> questo <name type="race">hobbit</name> 
+                    sia tanto fiero, ma un urlo come quello, in un momento di panico, basterebbe 
+                    a svegliare il <name type="race">drago</name> e tutti i suoi parenti, e a far 
+                    uccidere molti di noi. In realtà, se non fosse stato per il segno sulla porta, 
+                    direi che siamo entrati nella casa sbagliata. Appena ho dato un’occhiata a quel 
+                    tipetto saltellante e sbuffante sullo zerbino ho avuto i miei dubbi. 
+                    Sembra più un bottegaio che uno scassinatore!</said>.</p>                  
+               <p>A questo punto il signor <name type="person">Baggins</name> girò la maniglia ed 
+                    entrò. Il lato <name type="person">Tuc</name> aveva vinto. Sentì improvvisamente 
+                    che avrebbe fatto a meno del letto e della prima colazione pur di essere considerato 
+                    una tempra d’acciaio; quanto al “tipetto saltellante sullo zerbino”, una frase 
+                    così lo aveva già temprato abbastanza. Molto tempo dopo, il lato 
+                    <name type="person">Baggins</name> avrebbe rimpianto ciò che fece ora, ed egli 
+                   si sarebbe detto: <said rend="pre(«) post(»)" who="#Bil"><name type="person">Bilbo</name>, sei stato un pazzo: te 
+                    la sei proprio andata a cercare</said>.</p>                  
+                <p><said rend="pre(«) post(»)" who="#Bil">Scusatemi</said> disse <said rend="pre(«) post(»)" who="#Bil">se per caso ho sentito le parole che stavate dicendo. 
+                    Non pretendo di capire di che cosa stiate parlando, o il vostro riferimento agli 
+                    scassinatori, ma penso di aver ragione nel credere (questo è quello che chiamava 
+                    ammantarsi della propria dignità) che voi pensiate che io sia un inetto. Vi 
+                    proverò il contrario. Non ho segni sulla mia porta - è stata ridipinta la settimana 
+                    scorsa - e sono assolutamente sicuro che siete entrati nella casa sbagliata. 
+                    Appena ho visto le vostre buffe facce sui gradini della porta, ho avuto i miei dubbi.                   
+                    Ma ammettiamo pure che questa sia la casa giusta. Ditemi cosa volete che faccia, 
+                    e io farò del mio meglio, anche se dovessi andare a piedi da qui al più 
+                    <name type="place">Lontano Oriente</name> e combattere i selvaggi 
+                    <name type="race">Draghi Mannari</name> nell’<name type="place">Ultimo Deserto</name>. 
+                    Un mio pro-pro-pro-prozio, <name type="person">Ruggitoro Tuc</name>, una volta…</said>.</p>                    
+                <p><said rend="pre(«) post(»)">Sì, sì, ma era molto tempo fa</said> disse <name type="person">Gloin</name>. 
+                    <said rend="pre(«) post(»)">Io stavo parlando di te. E ti assicuro che su questa porta c’è un segno, 
+                    quello comunemente usato nel mestiere, o quanto meno usato fino a qualche tempo fa. 
+                    <emph>Scassinatore cerca buon lavoro, eccitante e ragionevolmente remunerativo</emph>, ecco come 
+                    lo si legge di solito. Se preferisci, puoi dire <emph>Esperto cacciatore di tesori</emph> invece 
+                    di <emph>scassinatore</emph>. Qualcuno lo fa. Per noi è proprio lo stesso. 
+                    <name type="person">Gandalf</name> ci ha detto che da queste parti c’era una 
+                    persona del genere, che cercava lavoro immediatamente e che aveva organizzato 
+                    un incontro qui per questo mercoledì all’ora del tè</said>.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Gan">Certo che c’è un segno</said> disse <name type="person">Gandalf</name>. 
+                    <said rend="pre(«) post(»)" who="#Gan">Ce l’ho messo io stesso. Per ottime ragioni. Mi avevate chiesto di trovare 
+                    un quattordicesimo uomo per la vostra spedizione, ed io ho scelto il signor 
+                    <name type="person">Baggins</name>. Se solo qualcuno si permette di dire che 
+                    ho scelto l’uomo sbagliato o la casa sbagliata, potete restare in tredici e avere 
+                    tutta la sfortuna che vi pare o tornarvene a scavare carbone!</said>.
+                </p>
+                <p>Sgridò <name type="person">Gloin</name> con tanta ira, che il 
+                    <name type="race">nano</name> si rannicchiò tutto in fondo alla sedia; e quando 
+                    <name type="person">Bilbo</name> tentò di aprir bocca per fare una domanda, si 
+                    girò verso di lui, lo fissò severamente aggrottando le irsute sopracciglia, finché 
+                    <name type="person">Bilbo</name> non serrò la bocca con uno scatto. 
+                    « Così va bene » disse <name type="person">Gandalf</name>. <said rend="pre(«) post(»)" who="#Gan">Smettiamola di litigare. 
+                    Ho scelto il signor <name type="person">Baggins</name> e questo dovrebbe essere più 
+                    che sufficiente per tutti voi. Se io dico che è uno Scassinatore, Scassinatore è, 
+                    o lo sarà al momento opportuno. È più in gamba di quanto voi non possiate indovinare, 
+                    e assai più di quanto egli stesso immagini. Mi auguro che possiate tutti 
+                    sopravvivere per ringraziarmi ancora. Adesso, <name type="person">Bilbo</name>, 
+                    ragazzo mio, va’ a prendere la lampada e illuminiamo un po’ questa!</said>.</p>                    
+                <p>E alla luce di una grossa lampada dall’ombra rossa, spiegò sulla tavola un pezzo 
+                    di pergamena che somigliava molto a una mappa.</p>                    
+                <p> <said rend="pre(«) post(»)" who="#Gan">Questa fu fatta da <name type="person">Thror</name>, tuo nonno, 
+                    <name type="person">Thorin</name></said> disse in risposta alle concitate domande dei 
+                    <name type="race">nani</name>. <said rend="pre(«) post(»)" who="#Gan">È una pianta della <name type="place">Montagna</name></said>.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Tho">Non mi pare che ci aiuterà molto</said> disse <name type="person">Thorin</name> con un 
+                    certo disappunto, dopo averci dato un’occhiata. <said rend="pre(«) post(»)" who="#Tho">Mi ricordo abbastanza bene la 
+                    <name type="place">Montagna</name> e le terre tutt’intorno. E so dov’è 
+                    <name type="place">Bosco Atro</name> e la <name type="place">Brughiera Arida</name>, 
+                    dove sono nati i grandi <name type="race">draghi</name></said>.                    
+                    <said rend="pre(«) post(»)">C’è un <name type="race">drago</name> segnato in rosso sulla 
+                    <name type="place">Montagna</name></said> disse <name type="person">Balin</name> 
+                    <said rend="pre(«) post(»)">ma sarà abbastanza facile trovarlo lo stesso, se mai arriviamo là</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">C’è una cosa che non avete notato</said> disse lo <name type="race">stregone</name> 
+                    <said rend="pre(«) post(»)" who="#Gan">ed è la porta segreta. Vedete quella runa sulla parte orientale e la mano che 
+                    la indica dalle altre rune? Questo è il segno di un passaggio alle 
+                    <name type="place">Sale Inferiori</name></said>. (Guardate la pianta all’inizio di questo 
+                    libro e vedrete le rune in rosso).</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Può essere stata segreta un tempo</said> disse <name type="person">Thorin</name>. 
+                    <said rend="pre(«) post(»)" who="#Tho">Ma come facciamo a sapere che lo è ancora? Il vecchio 
+                    <name type="person">Smaug</name> ha vissuto lì abbastanza a lungo per scoprire 
+                    tutto quanto c’è da sapere riguardo a quelle caverne</said>.</p>                   
+                <p><said rend="pre(«) post(»)" who="#Gan">Probabilmente; ma non può averla usata da anni e anni</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Perché?</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Perché è troppo piccola. “La porta è alta un metro e mezzo e ci si può passare in 
+                    tre per volta” dicono le rune, ma <name type="person">Smaug</name> non poteva infilarsi 
+                    in una apertura di quella misura, neanche quand’era un giovane 
+                    <name type="race">drago</name>, e certo non dopo avere divorato tutti quei 
+                    <name type="race">nani</name> e tutti quegli 
+                    <name type="race">uomini</name> di <name type="place">Dale</name></said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">A me sembra un’apertura molto grande!</said> squittì <name type="person">Bilbo</name> 
+                    (che non aveva nessuna esperienza di <name type="race">draghi</name>, ma solo di 
+                    caverne <name type="race">hobbit</name>). Si stava di nuovo eccitando e interessando, 
+                    sicché dimenticò di tener chiusa la bocca. Amava le mappe, e nell’ingresso ne teneva 
+                    appesa una grande del territorio della <name type="place">Contea</name> con tutte 
+                    le sue passeggiate preferite segnate in rosso.                     
+                    <said rend="pre(«) post(»)" who="#Bil">Come ha potuto una porta così larga rimanere nascosta a tutti gli estranei, 
+                    a parte il <name type="race">drago</name>?</said>                    
+                    domandò. Non dimenticate che era solo un piccolo <name type="race">hobbit</name>…</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">In molti modi</said> disse <name type="person">Gandalf</name>. <said rend="pre(«) post(»)" who="#Gan">Ma come questa 
+                    in particolare sia rimasta nascosta, non possiamo saperlo senza andare a vedere. 
+                    Da quanto dice la mappa, direi che si tratta di una porta chiusa in modo da 
+                    sembrare esattamente una parte del fianco della <name type="place">Montagna</name>. 
+                    È il metodo comunemente usato dai <name type="race">nani</name>, mi pare, o sbaglio?</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">No, hai perfettamente ragione</said> disse <name type="person">Thorin</name>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Inoltre</said> continuò <name type="person">Gandalf</name> <said rend="pre(«) post(»)" who="#Gan">ho dimenticato di dirvi 
+                    che assieme alla mappa c’è una chiave, una chiave piccola e strana. Eccola qua!</said> 
+                    disse, e porse a <name type="person">Thorin</name> una chiave d’argento dal lungo fusto, 
+                    con gli ingegni molto complicati. <said rend="pre(«) post(»)" who="#Gan">Tienila al sicuro !</said>.</p>                    
+                <p><said rend="pre(«) post(»)">Senza dubbio!</said>, e <name type="person">Thorin</name> l’assicurò a una sottile 
+                    catenella che gli pendeva attorno al collo, sotto la giacca. <said rend="pre(«) post(»)" who="#Tho">Adesso le cose 
+                    cominciano ad apparire più rosee: questa novità le migliora molto. Finora non 
+                    sapevamo bene che cosa fare. Pensavamo di andare verso <name type="place">Oriente</name>, 
+                    il più silenziosamente e prudentemente possibile, fino al Lago Lungo. I guai 
+                    sarebbero cominciati allora…</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Molto prima, se so qualcosa delle strade orientali</said> interruppe 
+                    <name type="person">Gandalf</name>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Da lì avremmo potuto risalire il <name type="place">Fiume Fluente</name></said> 
+                    continuò <name type="person">Thorin</name> senza badargli <said rend="pre(«) post(»)" who="#Tho">e poi arrivare alle 
+                    rovine di <name type="place">Dale</name>, l’antica città della valle, all’ombra 
+                    della <name type="place">Montagna</name>. Ma a nessuno di noi piaceva l’idea della 
+                    <name type="place">Porta Principale</name>. Il fiume scorre fuori proprio di lì, 
+                    attraverso le grandi rupi a sud della <name type="place">Montagna</name> e proprio 
+                    di lì esce anche il <name type="race">drago</name>name>, di gran lunga troppo spesso, a meno che 
+                    non abbia cambiato le proprie abitudini</said>.</p>                      
+                <p><said rend="pre(«) post(»)" who="#Gan">Questo non servirebbe a niente</said> disse lo <name type="race">stregone</name>.
+                    <said rend="pre(«) post(»)" who="#Gan">Non senza un possente Guerriero, anzi un Eroe. Ho cercato di trovarne uno, ma 
+                    i guerrieri sono occupati a combattersi l’un l’altro in terre lontane, e in questa 
+                    zona gli eroi scarseggiano o è semplicemente impossibile trovarli.                        
+                    Da queste parti le spade hanno per lo più perso il filo, le asce sono usate per 
+                    gli alberi, e gli scudi come culle o coperchi; i <name type="race">draghi</name> 
+                    poi sono confortevolmente lontani (e perciò leggendari).
+                    Questa è la ragione per cui mi sono deciso per lo scassinamento, specialmente 
+                    quando mi sono ricordato l’esistenza della <name type="place">Porta Laterale</name>. 
+                    Ed ecco il nostro piccolo <name type="person">Bilbo Baggins</name>, lo scassinatore, 
+                    lo scassinatore scelto e prescelto. Perciò andiamo avanti e facciamo qualche piano</said>.</p>
+                <p><said rend="pre(«) post(»)" who="#Tho">Molto bene, allora</said> disse <name type="person">Thorin</name> <said rend="pre(«) post(»)" who="#Tho">ammesso che l’esperto 
+                    in furto con scasso ci dia qualche buona idea o qualche suggerimento</said>. Si girò 
+                    con ironica cortesia verso <name type="person">Bilbo</name>.</p>                       
+                <p><said rend="pre(«) post(»)" who="#Bil">In primo luogo mi piacerebbe saperne un po’ di più</said> disse questi, 
+                    sentendosi confuso e interiormente un po’ scosso, ma ancora Tuccamente deciso 
+                    ad andare avanti con quella faccenda. <said rend="pre(«) post(»)" who="#Bil">Voglio dire riguardo all’oro e al 
+                    <name type="race">drago</name> e compagnia bella, e come ci è arrivato e a 
+                    chi appartiene, e così via e così via</said>.</p>                        
+                <p><said rend="pre(«) post(»)" who="#Tho">Che il cielo mi fulmini!</said> disse <name type="person">Thorin</name>. <said rend="pre(«) post(»)">Non hai 
+                    qui una mappa? E non hai sentito la nostra canzone? E non siamo stati a parlarne 
+                    per ore e ore?</said>.</p>                       
+                <p><said rend="pre(«) post(»)" who="#Bil">Mi piacerebbe lo stesso avere una spiegazione chiara e semplice</said> disse 
+                    <name type="person">Bilbo</name> ostinatamente, assumendo i suoi modi 
+                    professionali (di solito riservati alle persone che cercavano di chiedergli 
+                    del denaro in prestito), e facendo del proprio meglio per apparire saggio, 
+                    prudente, professionale e all’altezza della raccomandazione di 
+                    <name type="person">Gandalf</name>. <said rend="pre(«) post(»)" who="#Bil">Inoltre mi piacerebbe saperne di più sui 
+                    rischi, sulle spese extra, sul tempo a disposizione, sul compenso, e così via</said>. 
+                    E voleva dire: <said rend="pre(«) post(»)" who="#Bil">Che cosa me ne verrà in tasca? e tornerò indietro vivo?</said>.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Tho">Benissimo, allora!</said> disse <name type="person">Thorin</name>. <said rend="pre(«) post(»)" who="#Tho">Molto tempo fa, al tempo 
+                    di mio nonno <name type="person">Thror</name>, la nostra famiglia fu cacciata dal lontano 
+                    <name type="place">Nord</name> e ritornò con tutti i suoi beni e i suoi attrezzi a questa 
+                    <name type="place">Montagna</name> indicata sulla mappa. Era stata scoperta dal mio 
+                    lontano antenato <name type="person">Thrain il Vecchio</name>, ma fu solo a quel tempo 
+                    che i miei parenti vi scavarono sotto delle miniere e dei tunnel, e vi costruirono 
+                    sale più larghe e officine più grandi; inoltre trovarono, credo, un bel po’ d’oro e 
+                    anche un’infinità di pietre preziose. In ogni modo divennero immensamente ricchi e 
+                    famosi, e mio nonno fu di nuovo Re sotto la Montagna, e trattato con gran rispetto 
+                    dagli uomini mortali, che vivevano a <name type="place">Sud</name>, e si diffondevano 
+                    gradatamente per tutta la valle all’ombra della <name type="place">Montagna</name> 
+                    risalendo il <name type="place">Fiume Fluente</name>. In quei giorni costruirono lì 
+                    la prospera città di <name type="place">Dale</name>. I re ricercavano l’opera dei 
+                    nostri fabbri, e ricompensavano perfino il meno abile con la massima liberalità. 
+                    I padri ci pregavano di prendere i loro figli come apprendisti e ci pagavano 
+                    profumatamente, specialmente con prodotti alimentari, che noi non ci curavamo di 
+                    coltivare o di procurarci noi stessi. Tutto sommato erano dei gran bei giorni per noi, 
+                    e il più povero aveva soldi da spendere e prestare, e tutto il tempo libero che voleva 
+                    per fare le cose più belle per puro diletto; per non parlare dei giocattoli, i più 
+                    magici e meravigliosi del mondo, di cui oggi non si ha assolutamente l’uguale. Così 
+                    le sale di mio nonno si riempirono di armature, gioielli, incisioni e coppe, e il 
+                    mercato di giocattoli a <name type="place">Dale</name> divenne la meraviglia del 
+                    <name type="place">Nord</name></said>.</p>
+                <p><said rend="pre(«) post(»)" who="#Tho">Senza dubbio fu questo che attirò il <name type="race">drago</name>. Sai che i 
+                    <name type="race">draghi</name> rubano agli uomini, agli <name type="race">elfi</name> 
+                    e ai <name type="race">nani</name> oro e gioielli, dovunque possano trovarli; e fanno 
+                    la guardia al loro bottino finché vivono (il che in pratica vuol dire per sempre, a meno 
+                    che non vengano uccisi) e non si godono uno spillo di quello che hanno rubato. In realtà 
+                    sanno a malapena distinguere un lavoro ben fatto da uno fatto male, anche se di solito 
+                    ne conoscono bene il valore corrente sul mercato; e non sono capaci di far niente da soli, 
+                    neanche di riparare una scaglietta staccatasi dalla loro corazza. A quei tempi c’era 
+                    un gran numero di <name type="race">draghi</name> al <name type="place">Nord</name>, 
+                    e l’oro probabilmente cominciava a scarseggiare da quelle parti, coi 
+                    <name type="race">nani</name> che scappavano a sud o venivano uccisi e la desolazione 
+                    e la distruzione che i <name type="race">draghi</name> continuarono a disseminare, sì 
+                    che tutto va sempre di male in peggio. C’era un <name type="race">drago</name> 
+                    particolarmente avido, forte e malvagio, chiamato <name type="person">Smaug</name>.                    
+                    Un giorno si levò in aria e volando giunse al Sud. La prima cosa che sentimmo di lui 
+                    fu un rumore come d’uragano provenire da nord, e i pini sulla 
+                    <name type="place">Montagna</name> scricchiolare e schiantarsi al vento. 
+                    Con alcuni dei <name type="race">nani</name> che per caso si trovavano all’aperto 
+                    (fortunatamente ero uno di essi, un ragazzetto avventuroso a quei tempi, sempre in giro, 
+                    e questo mi salvò la vita quel giorno) - bene, da una bella distanza vedemmo il 
+                    <name type="race">drago</name> calare sulla nostra montagna in una nube di fuoco. 
+                    Poi scese la china e quando arrivò ai boschi, le fiamme li divorarono.                 
+                    Contemporaneamente, tutte le campane suonavano a <name type="place">Dale</name> e i 
+                    guerrieri si armavano. I <name type="race">nani</name> si precipitarono fuori dalla 
+                    grande Porta, ma trovarono il <name type="race">drago</name> ad aspettarli. Nessuno 
+                    si salvò per quella via. Il fiume ribollì in densi vapori e una fitta nebbia investì 
+                    <name type="place">Dale</name>, e nella nebbia il <name type="race">drago</name> calò 
+                    su di loro e distrusse quasi tutti i guerrieri - la solita storia disgraziata, fin 
+                    troppo comune a quei giorni. Poi tornò indietro e si infilò dentro la 
+                    <name type="place">Porta Principale</name> e mise a soqquadro tutte le sale, 
+                    i condotti, i tunnel, i corridoi, le cantine, le abitazioni e i passaggi.                    
+                    Dopo di ciò non rimase all’interno un solo nano vivo, ed egli si impadronì di tutti i 
+                    loro beni.                    
+                    Probabilmente, perché questo è l’uso dei <name type="race">draghi</name>, ha 
+                    ammassato tutto in un gran mucchio nel cuore della <name type="place">Montagna</name> 
+                    e ci dorme sopra come fosse il suo letto. Era solito poi strisciare fuori della porta 
+                    grande e andare a <name type="place">Dale</name> di notte a portar via delle persone, 
+                    specialmente fanciulle, per mangiarsele, finché <name type="place">Dale</name> non 
+                    fu rovinata e tutta la sua gente morta o partita. Non so con certezza che cosa vi 
+                    stia succedendo adesso, ma credo che al giorno d’oggi nessuno viva più vicino alla 
+                    <name type="place">Montagna</name>, almeno non oltre l’estremità più lontana del 
+                    <name type="place">Lago Lungo</name></said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Quei pochi tra noi che erano fuori al sicuro si sedettero e piansero, tenendosi 
+                    nascosti, e maledissero <name type="person">Smaug</name>; poi, inaspettatamente, 
+                    fummo raggiunti da mio padre e da mio nonno con le barbe bruciate. Avevano un 
+                    aspetto torvo e parlarono molto poco. Quando chiesi come avessero fatto a scampare, 
+                    mi dissero di tenere a freno la lingua, e aggiunsero che un giorno, al momento opportuno, 
+                    l’avrei saputo. Dopo di che ce ne andammo, e dovemmo guadagnarci da vivere come meglio 
+                    potevamo ora qui ora là, fin troppo spesso costretti a umiliarci lavorando come 
+                    maniscalchi o addirittura come minatori. Ma non abbiamo mai dimenticato il nostro 
+                    tesoro rubato. E ancor oggi, che abbiamo messo da parte un bel po’ e non stiamo 
+                    proprio tanto male, ammettiamolo pure</said> e qui <name type="person">Thorin</name> 
+                    passò la mano sulla catena d’oro attorno al collo <said rend="pre(«) post(»)" who="#Tho">ancora oggi vogliamo riaverlo, 
+                    e tornare a casa e rovesciare le nostre maledizioni su <name type="person">Smaug</name>, 
+                    se possiamo</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Mi sono spesso stupito della fuga di mio padre e mio nonno. Mi rendo conto adesso 
+                    che dovevano aver avuto una <name type="place">Porta Laterale</name> privata di cui 
+                    essi soli conoscevano l’esistenza. Ma a quanto pare fecero una mappa e mi piacerebbe 
+                    sapere come ha fatto <name type="person">Gandalf</name> a impossessarsene, e perché 
+                    non è arrivata a me, il legittimo erede</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Non è che io me ne sia “impossessato”; essa mi è stata data</said> disse lo 
+                    <name type="race">stregone</name>. <said rend="pre(«) post(»)" who="#Gan">Tuo nonno <name type="person">Thror</name> fu ucciso, 
+                    come ben ricordi, nelle miniere di <name type="place">Moria</name> da 
+                    <name type="person">Azog l’Orco</name></said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Maledetto il suo nome, sì</said> disse <name type="person">Thorin</name>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">E <name type="person">Thrain</name>, tuo padre, scomparve il ventun aprile, 
+                    che giovedì scorso faceva cent’anni, e tu non l’hai più visto da allora…</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Vero, vero</said> disse <name type="person">Thorin</name>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Bene, tuo padre me la dette per darla a te; e se ho scelto il momento e il modo 
+                    che preferivo per consegnartela, non puoi proprio biasimarmi, considerate le difficoltà 
+                    che ho avuto per trovarti. Tuo padre non riusciva neanche a ricordarsi il suo nome quando 
+                    mi dette la carta e non mi disse mai il tuo; così nel complesso penso che dovrei essere 
+                    lodato e ringraziato! Ecco qua</said> disse consegnando la mappa a 
+                    <name type="person">Thorin</name>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Non capisco</said> disse <name type="person">Thorin</name>, e 
+                    <name type="person">Bilbo</name> pensò che gli sarebbe piaciuto dire lo stesso. 
+                    La spiegazione non sembrava spiegare niente.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Tuo nonno</said> disse lo <name type="race">stregone</name> con voce lenta e severa 
+                    <said rend="pre(«) post(»)" who="#Gan">dette la mappa a suo figlio prima di recarsi nelle miniere di 
+                    <name type="place">Moria</name>. Tuo padre se ne andò a tentare la sorte con la mappa 
+                    dopo che tuo nonno fu ucciso, ed ebbe un gran numero di avventure del tipo più spiacevole, 
+                    ma non arrivò mai vicino alla <name type="place">Montagna</name>. Come fosse arrivato 
+                    lì non lo so, ma lo trovai prigioniero nelle segrete del 
+                    <name type="person">Negromante</name></said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Che cosa ci eri andato a fare?</said> disse <name type="person">Thorin</name> con un 
+                    fremito d’orrore: e tutti i <name type="race">nani</name> rabbrividirono.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Gan">Questo non ti riguarda. Indagavo, come al solito; ed era proprio un affare 
+                    maledettamente pericoloso. Perfino io, <name type="person">Gandalf</name>, 
+                    riuscii a scappare appena in tempo. Cercai di salvare tuo padre, ma era troppo tardi. 
+                    Inebetito e brancolante, si era ormai dimenticato quasi di tutto, tranne che della mappa 
+                    e della chiave</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Molto tempo fa l’abbiamo fatta pagare agli <name type="race">orchi</name>di 
+                    <name type="place">Moria</name></said> disse <name type="person">Thorin</name>. 
+                    <said rend="pre(«) post(»)" who="#Tho">Dobbiamo cominciare a occuparci del <name type="person">Negromante</name>!</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Gan">Non essere assurdo! È un nemico molto al di sopra delle possibilità di tutti i 
+                    <name type="race">nani</name> messi assieme, se anche potessero essere riuniti di 
+                    nuovo dai quattro angoli della terra. La sola cosa che tuo padre desiderava era che 
+                    suo figlio leggesse la mappa e usasse la chiave. Il <name type="race">drago</name> e la 
+                    <name type="place">Montagna</name> sono rischi grandi più che abbastanza per voi!</said>.
+                </p>
+                <p><said rend="pre(«) post(»)" who="#Bil">Senti senti!</said> disse <name type="person">Bilbo</name>, e per caso lo disse ad alta 
+                    voce.</p>                    
+                <p><said rend="pre(«) post(»)">Senti che cosa?</said> dissero tutti volgendosi improvvisamente verso di lui, ed egli 
+                    ne fu così confuso che rispose: <said rend="pre(«) post(»)" who="#Bil">Senti che cosa ho da dire!</said>.</p>                    
+                <p><said rend="pre(«) post(»)">Che cosa?</said> chiesero.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Bil">Be’, direi che dovreste andare a <name type="place">Est</name> a dare un’occhiata 
+                    in giro. Dopo tutto c’è la <name type="place">Porta Laterale</name>, e anche i 
+                    <name type="race">draghi</name> debbono pur dormire qualche volta, suppongo. Se ve 
+                    ne starete seduti sulla soglia abbastanza a lungo, oso dire che vi verrà in mente 
+                    qualcosa. Per ora, a me viene in mente che abbiamo parlato abbastanza per una notte 
+                    sola, non so se mi spiego. Che ne pensate di un letto, e di partire di buon’ora e 
+                    compagnia bella? Vi preparerò una buona colazione prima che partiate</said>.</p>                    
+                <p><said rend="pre(«) post(»)" who="#Tho">Prima che <emph>partiamo</emph>, vuoi dire</said> disse <name type="person">Thorin</name>. 
+                    <said rend="pre(«) post(»)" who="#Tho">Non sei tu lo scassinatore? Quanto allo star seduti sulla soglia, mi pare che 
+                    questo sia compito tuo, per non parlare del fatto di aprire la porta ed entrare! 
+                    Ma sono d’accordo per quanto riguarda il letto e la colazione. Prendo volentieri sei 
+                    uova col prosciutto, quando mi metto in viaggio: fritte, non in camicia, e fa’ 
+                    attenzione a non romperle</said>.
+                </p>
+                <p>Dopo che tutti gli altri ebbero ordinato la loro colazione senza dire neanche una 
+                    volta <said rend="pre(«) post(»)">per piacere</said> (cosa che a <name type="person">Bilbo</name> seccò moltissimo), 
+                    si alzarono. Lo <name type="race">hobbit</name> dovette trovare posto per tutti, 
+                    e riempire tutte le camere disponibili, preparando i letti su sedie e divani, 
+                    prima di averli sistemati e di poter andare a dormire nel suo lettino, molto stanco 
+                    e nel complesso assai poco felice. L’unica decisione che prese fu di non disturbarsi 
+                    ad alzarsi molto presto per preparare la dannata colazione per tutti gli altri. 
+                    Il suo lato <name type="person">Tuc</name> si stava rapidamente squagliando, e 
+                    <name type="person">Bilbo</name> non era più tanto sicuro che al mattino dopo sarebbe 
+                    partito per un viaggio, di qualsiasi tipo fosse. Mentre giaceva a letto poteva udire 
+                    <name type="person">Thorin</name> che cantava ancora piano, tra sé e sé, nella migliore 
+                    camera da letto accanto alla sua:</p>                    
+                <q type="last">Lontan sui monti fumidi e gelati in antri fondi, oscuri, desolati, prima che sorga il 
+                    sol dobbiamo andare i pallidi a cercar ori incantati.</q>                    
+                <p>    <name type="person">Bilbo</name> si addormentò con questo canto nelle orecchie, che gli 
+                    provocò dei sogni molto agitati.                    
+                    Fu molto dopo l’aurora che si svegliò.
+                </p>
+            </div>
+                        
+        </body>
+    </text>
+</TEI>

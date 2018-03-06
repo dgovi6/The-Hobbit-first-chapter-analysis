@@ -1,0 +1,381 @@
+html, body {
+  width: 100%;
+  min-width: 1280px;
+  margin:0px;
+  padding: 0px;
+  position: absolute;
+  background-image: url("imgs/webtreats_black_leather.jpg");
+  background-color: #191919;
+  background-size: 512px 512px;
+  background-repeat: repeat;
+  font-size: 17px;
+}
+
+#menu {
+  color: white;
+  text-align: center;
+  z-index: 3;
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  top: 9%;
+  margin: 0;
+  margin-left: -300px;
+  transition: all 0.3s ease;
+        -webkit-transition-property: all 0.3s ease;
+        -o-transition-property: all 0.3s ease;
+        -moz-transition-property: all 0.3s ease;
+}
+
+#menuheader {
+  height: 30px;
+  line-height: 30px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-left: 27px;
+}
+
+#menucloser {
+  height: 100%;
+  float: right;
+  cursor: pointer;
+}
+
+.menupart{
+  border-bottom: 2px solid white;
+}
+
+.buttonV {
+  position: fixed;
+  top: 38%;
+  color: white;
+  border: 2px solid white;
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+  border-radius: 4px;
+  padding: 2px;
+  height: 100px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  -ms-writing-mode: tb-rl; /* old syntax. IE */
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl; /* new syntax */    
+  -webkit-text-orientation: upright;
+  -moz-text-orientation: upright;
+  -ms-text-orientation: upright;
+  text-orientation: upright;
+  transition: all 0.3s ease;
+  -webkit-transition-property: all 0.3s ease;
+  -o-transition-property: all 0.3s ease;
+  -moz-transition-property: all 0.3s ease;
+}
+
+.buttonV:active {
+  margin-top: 1px;
+}
+
+#menuopener {
+  left: 23.8%;
+}
+
+#menuopener:hover {
+  background-color: white;
+  color: black;
+}
+
+#indexopener {
+  right: 25%;
+}
+
+#indexopener:hover {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  color: black;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8em;
+  border-radius: 4px;
+  padding: 2px;
+  width: 100px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+#personB {
+  border: 2px solid #FF4D4D;
+}
+
+#placeB {
+  border: 2px solid #7fbf7f;
+}
+
+#raceB {
+  border: 2px solid #FFCC33;
+}
+
+#dialogueB {
+  border: 2px solid #71b2fb;
+}
+
+#songB {
+  border: 2px solid #8E518E;
+}
+
+#info {
+  font-size: 0.6em;
+}
+
+#infoHead {
+  font-size: 17px;
+}
+
+#index {
+  text-align: right;
+  z-index: 3;
+  width: 300px;
+  top: 9%;
+  color: white;
+  position: fixed;
+  right: 0;
+  margin: 0;
+  margin-right: -300px;
+  transition: all 0.3s ease;
+        -webkit-transition-property: all 0.3s ease;
+        -o-transition-property: all 0.3s ease;
+        -moz-transition-property: all 0.3s ease;
+}
+
+#indexheader {
+  height: 30px;
+  line-height: 30px;
+  padding-right: 27px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+#indexheader > img {
+  height: 100%;
+  cursor: pointer;
+  float: left;
+}
+
+#index > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#index > ul > li{
+  height: 15px;
+  padding: 4.5px;
+  line-height: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#index ul li:last-of-type {
+  border-bottom: 2px solid white;
+}
+
+#index ul li:hover{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+  -webkit-transition-property: all 0.3s ease;
+  -o-transition-property: all 0.3s ease;
+  -moz-transition-property: all 0.3s ease;
+}
+
+#index > ul > li > img {
+  height: 15px;
+  float: right;
+}
+
+#clean {
+  position: fixed;
+  bottom: 2.5%;
+  right: 20.5%;
+  width: 65px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition-property: all 0.3s ease;
+  -o-transition-property: all 0.3s ease;
+  -moz-transition-property: all 0.3s ease;
+}
+
+#clean:hover {
+  background-color: white;
+  color: black;
+}
+
+#cover {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #fff;
+  top:0;
+  left:0;
+  overflow:hidden;
+}
+
+#cover > div {
+  z-index: 2;
+  text-align: center;
+  margin: 14vh auto;
+}
+
+#docAuthor {
+  font-style: italic;
+}
+
+#subTitle {
+  font-style: italic;
+}
+
+#logosmaug {
+  width: 200px;
+}
+
+#tlogo{
+  width: 75px;
+}
+
+#freccia {
+  display: block;
+  width: 80px;
+  margin: 13vh auto;
+  cursor: pointer;
+}
+
+#freccia:hover{
+  -webkit-filter: brightness(10);
+  filter: brightness(10);
+}
+
+#freccia:active{
+  margin: 13.2vh auto;
+}
+
+.list {
+  border-left: 2px solid #6F4A2C;
+  border-right: 2px solid #6F4A2C;
+  position: fixed;
+  text-align: center;
+  width: 45%;
+  min-width: 10em;
+  right: 0;
+  left: 0;
+  bottom: -1000px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #E4E4E4;
+  color: #2b0000;
+  transition: all 0.3s ease;
+        -webkit-transition-property: all 0.3s ease;
+        -o-transition-property: all 0.3s ease;
+        -moz-transition-property: all 0.3s ease;
+}
+
+.list > p {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+.listHead{
+  height: 30px;
+  line-height: 30px;
+  background-color: #6F4A2C;
+  color: white;
+  padding-left: 27px;
+}
+
+.listCloser {
+  height: 100%;
+  float: right;
+  cursor: pointer;
+}
+
+.listButton {
+  border: 2px solid #9f6b3f;
+}
+
+.blur{
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-style: normal;
+}
+
+.chapter {
+  box-sizing:border-box;
+  width: 45%;
+  min-width: 600px;
+  margin:auto;
+  color: #2b0000;
+  background-color: #DBC89E;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 65px;
+  padding-right: 65px;
+  text-align: justify;
+}
+
+.chapter p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+.chapter p:first-of-type{
+  text-indent: 0;
+}
+
+.capolettera {
+  font-size: 120px;
+  float: left;
+  font-size: 5.5rem;
+  margin-top: -14px;
+  color: #dc143c;
+}
+
+.emph {
+  font-style: italic;
+}
+
+.song {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.song2 {
+  border-radius: 4px;
+}
+
+.person, .place, .race, .said{
+  border-radius: 4px;
+}
